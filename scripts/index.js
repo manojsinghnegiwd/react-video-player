@@ -3,6 +3,6 @@ import {render} from 'react-dom';
 import ReactVideoPlayer from './components/react-video-player';
 
 render(
-  <ReactVideoPlayer />,
+  <ReactVideoPlayer width="400" autoplay loop />,
   document.getElementById('root')
 );
